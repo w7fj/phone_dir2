@@ -20,7 +20,7 @@ export class RegisterController {
         this.model.addUser(user);
         this.model.setCurrentUser(user);
         this.view.showAlert('Registration successful!');
-        window.location.href = '/html/index.html';
+        window.location.href = '/phone_dir2/html/index.html';
     }
 }
 

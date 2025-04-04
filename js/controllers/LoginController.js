@@ -14,7 +14,7 @@ export class LoginController {
         if (user) {
             this.model.setCurrentUser(user);
             this.view.showAlert('Login successful!');
-            window.location.href = '/html/index.html';
+            window.location.href = '/phone_dir2/html/index.html';
         } else {
             this.view.showAlert('Invalid credentials!', 'danger');
         }

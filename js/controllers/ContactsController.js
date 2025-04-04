@@ -13,7 +13,7 @@ export class ContactsController {
     init() {
         const user = this.userModel.getCurrentUser();
         if (!user) {
-            window.location.href = '/html/login.html';
+            window.location.href = '/phone_dir2/html/login.html';
             return;
         }
         const userContacts = this.model.getContacts().filter(c => c.owner_id === user.id);
@@ -37,7 +37,7 @@ export class ContactsController {
             this.model.addContact(contact, user.id);
             this.view.showAlert('Contact added successfully!');
             e.target.reset();
-            window.location.href = '/html/index.html';
+            window.location.href = '/phone_dir2/html/index.html';
         });
 
         document.addEventListener('click', (e) => {

@@ -13,7 +13,7 @@ export class ProfileController {
     init() {
         const user = this.model.getCurrentUser();
         if (!user) {
-            window.location.href = '/html/login.html';
+            window.location.href = '/phone_dir2/html/login.html';
             return;
         }
         const userContacts = this.contactsModel.getContacts().filter(c => c.owner_id === user.id);
@@ -24,7 +24,7 @@ export class ProfileController {
 
     handleLogout() {
         this.model.logout();
-        window.location.href = '/html/login.html';
+        window.location.href = '/phone_dir2/html/login.html';
     }
 }
 
