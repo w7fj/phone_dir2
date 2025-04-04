@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - PhoneBook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white shadow">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-white text-decoration-none">
+                    <i class="fas fa-address-book fa-2x me-2"></i>
+                    <h1 class="mb-0 fw-bold" style="font-family: 'Montserrat', sans-serif;">PhoneBook</h1>
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="profile.html" class="nav-link text-white fw-semibold">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link text-white fw-semibold">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="add_contact.html" class="nav-link text-white fw-semibold">Add Contact</a>
+                        </li>
+                    </ul>
+    
+                    <div class="d-flex">
+                        <a href="login.html" class="btn btn-light text-primary fw-bold me-2 px-3 shadow-sm">Login</a>
+                        <a href="register.html" class="btn btn-outline-light fw-bold px-3 shadow-sm">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow">
+                    <div class="card-body p-5 text-center">
+                        <div class="mb-4">
+                            <i class="fas fa-address-book" style="font-size: 5rem; color: #0d6efd;"></i>
+                        </div>
+                        <h2 class="card-title mb-4">PhoneBook</h2>
+                        <p class="lead mb-4">A convenient way to store and organize all your contacts</p>
+                        <hr class="my-4">
+                        <div class="text-start">
+                            <h4 class="mb-3">About the Application</h4>
+                            <p>PhoneBook is a modern web application designed for efficient contact management. Our app helps you store, organize, and quickly find information about your friends, family, and colleagues.</p>
+                            <p>Key features of the application:</p>
+                            <ul class="list-group list-group-flush mb-4">
+                                <li class="list-group-item bg-transparent"><i class="fas fa-check-circle text-primary me-2"></i> Storing contact information (name, description, phone numbers, address)</li>
+                                <li class="list-group-item bg-transparent"><i class="fas fa-check-circle text-primary me-2"></i> Categorizing contacts (family, work, friends, and others)</li>
+                                <li class="list-group-item bg-transparent"><i class="fas fa-check-circle text-primary me-2"></i> Quick search across all contacts</li>
+                                <li class="list-group-item bg-transparent"><i class="fas fa-check-circle text-primary me-2"></i> Easy addition, editing, and deletion of contacts</li>
+                                <li class="list-group-item bg-transparent"><i class="fas fa-check-circle text-primary me-2"></i> Responsive design for mobile devices and tablets</li>
+                            </ul>
+                        </div>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-4">
+                            <a href="register.html" class="btn btn-primary btn-lg px-4 gap-3">Get Started</a>
+                            <a href="login.html" class="btn btn-outline-primary btn-lg px-4">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3" style="position: fixed; bottom: 0; width: 100%; left: 0;">
+        <div class="container">
+            <p class="mb-0">© 2025 PhoneBook. All rights reserved.</p>
+            <p class="mb-0">A simple and efficient way to manage your contacts</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

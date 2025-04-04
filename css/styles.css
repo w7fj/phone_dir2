@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Segoe UI';
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+}
+
+header .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Card Styles */
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    overflow: hidden;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card-title {
+    color: #0d6efd;
+    font-weight: 600;
+    border-bottom: 2px dotted #e0e0e0;
+    padding-bottom: 8px;
+}
+
+.contact-label {
+    font-weight: 600;
+    color: #6c757d;
+    display: inline-block;
+    width: 100px;
+}
+
+.contact-value {
+    font-weight: 500;
+}
+
+
+.bg-family {
+    background-color: #4e73df;
+}
+
+.bg-work {
+    background-color: #1cc88a;
+}
+
+.bg-friend {
+    background-color: #f6c23e;
+}
+
+
+.btn-outline-primary:hover {
+    transform: scale(1.05);
+}
+
+
+.btn-outline-primary.active {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+
+.input-group .form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+footer {
+    background: linear-gradient(135deg, #0a58ca 0%, #0d6efd 100%);
+}
